@@ -180,7 +180,7 @@ export default function Manage({
               {stakingInfo?.totalRewardRate
                 ?.multiply((60 * 60 * 24 * 7).toString())
                 ?.toFixed(0, { groupSeparator: ',' }) ?? '-'}
-              {' UNI / week'}
+              {' AFX / week'}
             </TYPE.body>
           </AutoColumn>
         </PoolData>
