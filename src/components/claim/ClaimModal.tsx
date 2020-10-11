@@ -137,7 +137,7 @@ export default function ClaimModal() {
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <TYPE.subHeader fontWeight={500}>
               As a member of the Africaswap community you may claim AFX to be used for voting and governance. <br /> <br />
-              <ExternalLink href="https://uniswap.org/blog/uni">Read more about AFX</ExternalLink>
+              <ExternalLink href="https://africaswap.org/blog/afx">Read more about AFX</ExternalLink>
             </TYPE.subHeader>
             <ButtonPrimary
               disabled={!isAddress(account ?? '')}

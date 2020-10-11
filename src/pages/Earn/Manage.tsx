@@ -312,7 +312,7 @@ export default function Manage({
         {!showAddLiquidityButton && (
           <DataRow style={{ marginBottom: '1rem' }}>
             <ButtonPrimary padding="8px" borderRadius="8px" width="160px" onClick={handleDepositClick}>
-              {stakingInfo?.stakedAmount?.greaterThan(JSBI.BigInt(0)) ? 'Deposit' : 'Deposit UNI-V2 LP Tokens'}
+              {stakingInfo?.stakedAmount?.greaterThan(JSBI.BigInt(0)) ? 'Deposit' : 'Deposit AFX-LP Tokens'}
             </ButtonPrimary>
 
             {stakingInfo?.stakedAmount?.greaterThan(JSBI.BigInt(0)) && (

@@ -141,7 +141,7 @@ export default function Vote() {
               </RowBetween>
               <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
-                href="https://uniswap.org/blog/uni"
+                href="https://africaswap.org/blog/AFX"
                 target="_blank"
               >
                 <TYPE.white fontSize={14}>Read more about Africaswap governance</TYPE.white>
@@ -224,7 +224,7 @@ export default function Vote() {
         })}
       </TopSection>
       <TYPE.subHeader color="text3">
-        A minimum threshhold of 1% of the total UNI supply is required to submit proposals
+        A minimum threshhold of 1% of the total AFX supply is required to submit proposals
       </TYPE.subHeader>
     </PageWrapper>
   )

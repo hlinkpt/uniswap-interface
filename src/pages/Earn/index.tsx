@@ -59,10 +59,10 @@ export default function Earn() {
               </RowBetween>{' '}
               <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
-                href="https://uniswap.org/blog/uni/"
+                href="https://africaswap.org/blog/afx/"
                 target="_blank"
               >
-                <TYPE.white fontSize={14}>Read more about UNI</TYPE.white>
+                <TYPE.white fontSize={14}>Read more about AFX</TYPE.white>
               </ExternalLink>
             </AutoColumn>
           </CardSection>
