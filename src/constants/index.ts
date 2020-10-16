@@ -3,7 +3,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
+export const ROUTER_ADDRESS = '0x3886b787c88D904293a56D43bb090816B07323b0'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
@@ -22,16 +22,16 @@ export const WBTC = new Token(ChainId.MAINNET, '0x2260FAC5E5542a773Aa44fBCfeDf7C
 
 // TODO this is only approximate, it's actually based on blocks
 export const PROPOSAL_LENGTH_IN_DAYS = 7
-
+// TODO Forkar o contrato da governanca
 export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F'
 
-const UNI_ADDRESS = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
-export const UNI: { [chainId in ChainId]: Token } = {
-  [ChainId.MAINNET]: new Token(ChainId.MAINNET, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.KOVAN]: new Token(ChainId.KOVAN, UNI_ADDRESS, 18, 'UNI', 'Uniswap')
+const AFX_ADDRESS = '0x17563e90e889cdcfd52af09c7bae8a93b41a214f'
+export const AFX: { [chainId in ChainId]: Token } = {
+  [ChainId.MAINNET]: new Token(ChainId.MAINNET, AFX_ADDRESS, 18, 'AFX', 'Africaswap'),
+  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, AFX_ADDRESS, 18, 'AFX', 'Africaswap'),
+  [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, AFX_ADDRESS, 18, 'AFX', 'Africaswap'),
+  [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, AFX_ADDRESS, 18, 'AFX', 'Africaswap'),
+  [ChainId.KOVAN]: new Token(ChainId.KOVAN, AFX_ADDRESS, 18, 'AFX', 'Africaswap')
 }
 
 // TODO: specify merkle distributor for mainnet
