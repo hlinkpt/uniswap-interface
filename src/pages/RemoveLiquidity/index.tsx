@@ -121,9 +121,11 @@ export default function RemoveLiquidity({
       { name: 'version', type: 'string' },
       { name: 'chainId', type: 'uint256' },
       { name: 'verifyingContract', type: 'address' }
-    ]
+	]
+	
+	// Mudar tem que ser igual ao ERC 
     const domain = {
-      name: 'Africaswap',
+      name: 'Africaswap Pool Token',
       version: '1',
       chainId: chainId,
       verifyingContract: pair.liquidityToken.address
